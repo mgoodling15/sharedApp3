@@ -10,6 +10,10 @@ import UIKit
 
 class CatalogViewController: UIViewController {
 
+    @IBAction func next(_ sender: Any) {
+        performSegue(withIdentifier: "login2menu", sender: self)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
