@@ -18,6 +18,7 @@
 		1FB95583201CFE9400253C78 /* sharedApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB95582201CFE9400253C78 /* sharedApp2UITests.swift */; };
 		92D7F60F201D5D6F00AAC930 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D7F60E201D5D6F00AAC930 /* CatalogViewController.swift */; };
 		92D7F611201D5F3A00AAC930 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D7F610201D5F3A00AAC930 /* RatingControl.swift */; };
+		92D7F613201D6F3600AAC930 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D7F612201D6F3600AAC930 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		1FB95584201CFE9400253C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92D7F60E201D5D6F00AAC930 /* CatalogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
 		92D7F610201D5F3A00AAC930 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		92D7F612201D6F3600AAC930 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				1FB95564201CFE9400253C78 /* SecondViewController.swift */,
 				92D7F60E201D5D6F00AAC930 /* CatalogViewController.swift */,
 				92D7F610201D5F3A00AAC930 /* RatingControl.swift */,
+				92D7F612201D6F3600AAC930 /* Profile.swift */,
 				1FB95566201CFE9400253C78 /* Main.storyboard */,
 				1F804681201D41C300D3BB6E /* loginViewController.swift */,
 				1FB95569201CFE9400253C78 /* Assets.xcassets */,
@@ -274,6 +277,7 @@
 				92D7F60F201D5D6F00AAC930 /* CatalogViewController.swift in Sources */,
 				1F804682201D41C300D3BB6E /* loginViewController.swift in Sources */,
 				1FB95565201CFE9400253C78 /* SecondViewController.swift in Sources */,
+				92D7F613201D6F3600AAC930 /* Profile.swift in Sources */,
 				1FB95561201CFE9400253C78 /* AppDelegate.swift in Sources */,
 				92D7F611201D5F3A00AAC930 /* RatingControl.swift in Sources */,
 				1FB95563201CFE9400253C78 /* FirstViewController.swift in Sources */,
