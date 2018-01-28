@@ -18,6 +18,7 @@
 		1FB95583201CFE9400253C78 /* sharedApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB95582201CFE9400253C78 /* sharedApp2UITests.swift */; };
 		22DBC20D201D641900014A23 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DBC20C201D641900014A23 /* User.swift */; };
 		22DBC20F201D6EF700014A23 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DBC20E201D6EF600014A23 /* Item.swift */; };
+		22DBC214201D81B700014A23 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DBC213201D81B700014A23 /* ProfileViewController.swift */; };
 		92D7F60F201D5D6F00AAC930 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D7F60E201D5D6F00AAC930 /* CatalogViewController.swift */; };
 		92D7F611201D5F3A00AAC930 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D7F610201D5F3A00AAC930 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		1FB95584201CFE9400253C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22DBC20C201D641900014A23 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		22DBC20E201D6EF600014A23 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		22DBC213201D81B700014A23 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		92D7F60E201D5D6F00AAC930 /* CatalogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
 		92D7F610201D5F3A00AAC930 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +122,7 @@
 				1FB9556B201CFE9400253C78 /* LaunchScreen.storyboard */,
 				1FB9556E201CFE9400253C78 /* Info.plist */,
 				22DBC212201D715D00014A23 /* Models */,
+				22DBC213201D81B700014A23 /* ProfileViewController.swift */,
 			);
 			path = sharedApp2;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				1FB95565201CFE9400253C78 /* SecondViewController.swift in Sources */,
 				22DBC20F201D6EF700014A23 /* Item.swift in Sources */,
 				1FB95561201CFE9400253C78 /* AppDelegate.swift in Sources */,
+				22DBC214201D81B700014A23 /* ProfileViewController.swift in Sources */,
 				92D7F611201D5F3A00AAC930 /* RatingControl.swift in Sources */,
 				1FB95563201CFE9400253C78 /* FirstViewController.swift in Sources */,
 			);

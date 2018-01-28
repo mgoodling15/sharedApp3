@@ -10,19 +10,26 @@ import Foundation
 
 class Item: Hashable {
     let id: Int
+    let ownerId: Int
     let name: String?
     let description: String?
+    let picture: String?
+    let tag: Set<String>
+    let category: String?
     let history: [String: String]
     
     var hashValue: Int {
         return id.hashValue
     }
     
-    init (name: String?, description: String?, history: [String: String]) {
+    init (id: Int, ownerId: Int, name: String?, description: String?, picture: String?, tag: Set<String>, category: String?, history: [String: String]) {
+        self.id = id
+        self.ownerId = ownerId
         self.name = name
         self.description = description
-        self.history = [:]
+        self.picture = picture
+        self.tag = Set<String>()
+        self.category = category
+        self.history = [String: String]()
     }
-    
-    
 }
