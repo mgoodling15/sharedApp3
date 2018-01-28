@@ -238,6 +238,10 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gLF-n9-pYe" customClass="RatingControl" customModule="sharedApp2" customModuleProvider="target">
+                                <rect key="frame" x="61" y="227" width="252" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="amg-tu-JPL"/>
@@ -314,6 +318,6 @@
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3cL-Zh-HTt"/>
+        <segue reference="M2d-At-Xj2"/>
     </inferredMetricsTieBreakers>
 </document>
